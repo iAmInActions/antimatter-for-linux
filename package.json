@@ -1,0 +1,35 @@
+{
+  "name": "antimatter-for-linux",
+  "version": "1.0.0",
+  "description": "A fork of Antimatter Dimensions for Linux based operating systems",
+  "synopsis": "Linux fork of Antimatter Dimensions",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "antimatter",
+    "antimatter",
+    "dimensions",
+    "game",
+    "desktop",
+    "application"
+  ],
+  "author": "mueller_minki (original program by ivark)",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^25.0.1",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "IvarK.AntimatterDimensions",
+    "linux": {
+      "target": "AppImage",
+      "maintainer": "IvarK",
+      "vendor": "mueller_minki",
+      "category": "Entertainment"
+    }
+  }
+}

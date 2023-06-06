@@ -1,0 +1,9 @@
+{
+  "appId": "IvarK.AntimatterDimensions",
+  "linux": {
+    "target": "AppImage",
+    "maintainer": "IvarK",
+    "vendor": "mueller_minki",
+    "category": "Entertainment"
+  }
+}
